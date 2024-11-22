@@ -20,5 +20,10 @@ namespace _20241114_InheritanceDemo
         {
             _r = (int)(_r * delta);
         }
+
+        public override string ToString()
+        {
+            return string.Format("Circle ({0}, {1}), r = {2}", _x, _y, _r);
+        }
     }
 }

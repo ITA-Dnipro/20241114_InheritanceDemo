@@ -90,6 +90,20 @@
             r1.Move(2, 1);
 
             Console.WriteLine($"r1: {r1}");
+
+
+            Picture pict = new Picture(5);
+
+            pict.Add(c1);
+            pict.Add(r1);
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            UI.Show(pict);
+
+            pict.Move(2, 1);
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            UI.Show(pict);
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="_20241114_InheritanceDemo.Point2D">
-    <Position X="5.5" Y="1" Width="1.5" />
+    <Position X="5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Point2D.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -31,16 +31,26 @@
   <Class Name="_20241114_InheritanceDemo.Rectangle">
     <Position X="1.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAIQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAIAIQAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_20241114_InheritanceDemo.Figure2D">
     <Position X="2" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAIAIQAAAYAAAAAAAAAAAAAAAAAYAAAAAAAYAA=</HashCode>
+      <HashCode>AAAAAAAIAIQAAAYAAAAAAAAAAAAAAAAAYAAAAAEAYAA=</HashCode>
       <FileName>Figure2D.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="_20241114_InheritanceDemo.Picture">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAAgAAACAACBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Picture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_figures" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
